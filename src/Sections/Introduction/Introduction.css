@@ -10,11 +10,17 @@
 }
 
 #section-1--introduction #i-am {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--primary-color-2);
-    width: max-content;
+    
+    /* width: max-content; */
+}
 
+#section-1--introduction #i-am #triangle {
     position: relative;
-    left: 1rem;
+    top: 0.5rem;
 }
 
 #section-1--introduction #i-am-and-decorative-div {
@@ -50,5 +56,15 @@
 }
 
 #section-1--introduction #welcome-to-my-world {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+#section-1--introduction .welcome-content-triangle{
+    transform: rotate(90deg);
+    right: -1.5rem;
+    top: 0.7rem;
+    position: absolute;
 }
