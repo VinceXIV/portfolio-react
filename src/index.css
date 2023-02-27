@@ -1,7 +1,7 @@
 :root {
   --primary-color-1: #6C4A4A;
   --primary-color-2: #C89595;
-  --primary-color-3: #DDBEBE;
+  --primary-color-3: rgb(221, 190, 190);
   --primary-color-4: #EDEDED;
   font-size: calc(100vh * 16/768);
 }

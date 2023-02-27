@@ -1,11 +1,30 @@
 #section-1--introduction {
     height: calc(100vh - 4.5rem);
-    max-width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
 }
 
+#section-1--introduction .left-side {
+    max-width: max-content;
+    z-index: 2;
+
+}
+
+#section-1--introduction .right-side {
+    position: absolute;
+    top: 10rem;
+    width: 70%;
+    height: 50%;
+    right: 0;
+    z-index: 1;
+    border-right: 0.1rem solid var(--primary-color-2);
+    border-bottom: 0.1rem solid var(--primary-color-2);
+}
 
 #section-1--introduction h1 {
-    padding-top: 26vh;
     margin-bottom: 2rem;
 }
 
@@ -60,11 +79,19 @@
     flex-direction: column;
     align-items: flex-end;
     position: relative;
+    left: -2rem;
 }
 
 #section-1--introduction .welcome-content-triangle{
     transform: rotate(90deg);
-    right: -1.5rem;
+    right: -2rem;
     top: 0.7rem;
     position: absolute;
+}
+
+#section-1--introduction .right-side-big-triangle {
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: 2rem;
+    right: -1.5rem;
 }
