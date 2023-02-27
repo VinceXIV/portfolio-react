@@ -19,7 +19,7 @@ function Introduction(){
 
             <div id="welcome-to-my-world">
                 <p className="welcome-content"> Welcome to</p>
-                <p className="welcome-content">myWorld</p>
+                <p className="welcome-content">{`{ myWorld }`}</p>
             </div>
         </section>
     )
