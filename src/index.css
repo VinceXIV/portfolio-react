@@ -1,0 +1,32 @@
+:root {
+  --primary-color-1: #6C4A4A;
+  --primary-color-2: #C89595;
+  --primary-color-3: #DDBEBE;
+  --primary-color-4: #EDEDED;
+  font-size: calc(100vh * 16/768);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Inter', sans-serif;
+  color: var(--primary-color-3);
+}
+
+.container {
+  width: max(70%, calc(100% - 4rem));
+  max-width: 56rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: auto;
+
+  background-color: var(--primary-color-1);
+}
+
+@media screen and (max-height: 768px){
+  :root {
+    font-size: 16px;
+  }
+}
