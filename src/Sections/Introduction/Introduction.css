@@ -1,0 +1,54 @@
+#section-1--introduction {
+    height: calc(100vh - 4.5rem);
+    max-width: max-content;
+}
+
+
+#section-1--introduction h1 {
+    padding-top: 30vh;
+    margin-bottom: 2rem;
+}
+
+#section-1--introduction #i-am {
+    color: var(--primary-color-2);
+    width: max-content;
+
+    position: relative;
+    left: 1rem;
+}
+
+#section-1--introduction #i-am-and-decorative-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+#section-1--introduction #my-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--primary-color-4);
+}
+
+#section-1--introduction .name {
+    display: flex;
+    align-items: stretch;
+    
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+
+#section-1--introduction .name p {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 0;
+}
+
+#section-1--introduction #welcome-to-my-world {
+    text-align: right;
+}
