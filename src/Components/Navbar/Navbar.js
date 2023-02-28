@@ -6,7 +6,7 @@ function Navbar(){
         <nav id="navbar">
             <div className="container">
                 <div id="div-left">
-                    Vincent
+                    {`< git commit -m 'what am I doing' /> `}
                 </div>
         
                 <div id="div-right">

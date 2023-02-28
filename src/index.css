@@ -3,7 +3,7 @@
   --primary-color-2: #C89595;
   --primary-color-3: rgb(221, 190, 190);
   --primary-color-4: #EDEDED;
-  font-size: calc(100vh * 16/768);
+  font-size: min(100vh * 16/768, 100vw * 42/1360);
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 .container {
-  width: 80vw;
+  width: 85vw;
   padding-left: 6vw;
   padding-right: 6vw;
   max-width: 75rem;
@@ -36,12 +36,6 @@
 }
 
 /* RESPONSIVENESS  */
-@media only screen and (max-width: 1024px) {
-  :root {
-      font-size: calc(100vh * 12/768);
-  }
-}
-
 @media screen and (max-height: 768px){
   :root {
     font-size: 16px;
