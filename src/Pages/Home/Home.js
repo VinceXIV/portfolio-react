@@ -1,5 +1,6 @@
 import React from "react";
 import Introduction from "../../Sections/Introduction/Introduction";
+import "./Home.css"
 
 function Home(){
     return (
