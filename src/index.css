@@ -19,6 +19,8 @@
 
 .container {
   width: 80%;
+  padding-left: 3rem;
+  padding-right: 3rem;
   max-width: 56rem;
   margin: auto;
 
@@ -34,6 +36,12 @@
 }
 
 /* RESPONSIVENESS  */
+@media only screen and (max-width: 1024px) {
+  :root {
+      font-size: calc(100vh * 12/768);
+  }
+}
+
 @media screen and (max-height: 768px){
   :root {
     font-size: 16px;
