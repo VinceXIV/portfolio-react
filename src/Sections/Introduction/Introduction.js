@@ -11,7 +11,7 @@ function Introduction(){
                     <div id="i-am-and-decorative-div">
                         <div id="i-am">
                             <p>I</p>
-                            <Triangle width={12} height={12} color={"#C89595"} className=""/>
+                            <Triangle width={0.75} height={0.75} color={"#C89595"} className=""/>
                             <p>am</p>
                         </div>
                         <div class="decoration-div"></div>
@@ -26,13 +26,13 @@ function Introduction(){
                 <div id="welcome-to-my-world">
                     <p className="welcome-content"> Welcome to</p>
                     <p className="welcome-content">{`{ myWorld }`}</p>
-                    <Triangle width={16} height={16} color={"#C89595"} className="welcome-content-triangle"/>
+                    <Triangle width={1} height={1} color={"#C89595"} className="welcome-content-triangle"/>
                 </div>
             </div>
 
             <div className="right-side">
                 <div className="borders">
-                    <Triangle width={120} height={120} color={"#C89595"} className="right-side-big-triangle"/>
+                    <Triangle width={7.5} height={7.5} color={"#C89595"} className="right-side-big-triangle"/>
                 </div>
             </div>
         </section>

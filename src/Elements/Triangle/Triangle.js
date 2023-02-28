@@ -5,9 +5,9 @@ function Triangle({width, height, color, className}){
     const triangleStyles = {
         width: 0,
         height: 0,
-        borderLeft: `${width}px solid transparent`,
-        borderRight: `${width}px solid transparent`,
-        borderBottom: `${height}px solid ${color}`
+        borderLeft: `${width}rem solid transparent`,
+        borderRight: `${width}rem solid transparent`,
+        borderBottom: `${height}rem solid ${color}`
     }
 
     return (
