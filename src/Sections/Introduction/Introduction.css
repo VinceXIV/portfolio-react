@@ -14,7 +14,7 @@
 
 #section-1--introduction .right-side {
     position: absolute;
-    top: 0.3;
+    top: 30vh;
     width: 70%;
     height: 18rem;
     right: 0;
@@ -93,4 +93,29 @@
     position: absolute;
     bottom: 2rem;
     right: -1.5rem;
+}
+
+
+/* RESPONSIVENESS  */
+@media only screen and (max-width: 64rem) {
+    :root {
+        font-size: calc(100vh * 12/768);
+    }
+}
+
+@media only screen and (max-width: 52rem){
+    :root {
+        font-size: calc(100vh * 12/768);
+    }
+
+    .container {
+        width: 90vw;
+        max-width: none;
+        padding-left: none;
+        padding-right: none;
+    }
+
+    #section-1--introduction .right-side {
+        display: none;
+    }
 }
