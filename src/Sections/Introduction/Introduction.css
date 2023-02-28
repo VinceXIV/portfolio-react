@@ -14,13 +14,12 @@
 
 #section-1--introduction .right-side {
     position: absolute;
-    top: 30vh;
+    /* top: 30vh; */
     width: 70%;
     height: 18rem;
     right: 0;
     z-index: 1;
     border-right: 0.1rem solid var(--primary-color-2);
-    border-bottom: 0.1rem solid var(--primary-color-2);
 }
 
 #section-1--introduction h1 {
@@ -88,18 +87,15 @@
     position: absolute;
 }
 
-#section-1--introduction .right-side-big-triangle {
-    transform: rotate(135deg);
-    position: absolute;
-    bottom: 2rem;
-    right: -1.5rem;
-}
-
 
 /* RESPONSIVENESS  */
 @media only screen and (max-width: 64rem) {
     :root {
         font-size: calc(100vh * 12/768);
+    }
+
+    #section-1--introduction .right-side {
+        display: none;
     }
 }
 
@@ -113,9 +109,5 @@
         max-width: none;
         padding-left: none;
         padding-right: none;
-    }
-
-    #section-1--introduction .right-side {
-        display: none;
     }
 }

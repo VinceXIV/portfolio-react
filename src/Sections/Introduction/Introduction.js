@@ -32,7 +32,6 @@ function Introduction(){
 
             <div className="right-side">
                 <div className="borders">
-                    <Triangle width={7.5} height={7.5} color={"#C89595"} className="right-side-big-triangle"/>
                 </div>
             </div>
         </section>
