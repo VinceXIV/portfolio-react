@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
     width: 100%;
-    position: relative;
 }
 
 #section-1--introduction .left-side {
@@ -13,17 +13,14 @@
 }
 
 #section-1--introduction .right-side {
-    position: absolute;
-    /* top: 30vh; */
-    width: 70%;
-    height: 18rem;
+    height: 36vh;
     right: 0;
     z-index: 1;
     border-right: 0.1rem solid var(--primary-color-2);
 }
 
 #section-1--introduction h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 4vh;
 }
 
 #section-1--introduction #i-am {
@@ -60,8 +57,8 @@
     display: flex;
     align-items: stretch;
     
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
     gap: 2rem;
 }
 
@@ -74,17 +71,13 @@
 
 #section-1--introduction #welcome-to-my-world {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: relative;
-    left: -2rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
 }
 
 #section-1--introduction .welcome-content-triangle{
     transform: rotate(90deg);
-    right: -2rem;
-    top: 0.7rem;
-    position: absolute;
 }
 
 
@@ -96,14 +89,10 @@
 }
 
 @media only screen and (max-width: 52rem){
-    :root {
-        font-size: calc(100vh * 12/768);
-    }
-
     .container {
-        width: 90vw;
         max-width: none;
         padding-left: none;
         padding-right: none;
+        margin: auto;
     }
 }

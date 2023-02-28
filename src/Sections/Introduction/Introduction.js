@@ -24,8 +24,10 @@ function Introduction(){
                 </div>
 
                 <div id="welcome-to-my-world">
-                    <p className="welcome-content"> Welcome to</p>
-                    <p className="welcome-content">{`{ myWorld }`}</p>
+                    <div className="text-content">
+                        <p className="welcome-content"> Welcome to</p>
+                        <p className="welcome-content">{`{ myWorld }`}</p>
+                    </div>
                     <Triangle width={1} height={1} color={"#C89595"} className="welcome-content-triangle"/>
                 </div>
             </div>
