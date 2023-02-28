@@ -13,7 +13,7 @@
 }
 
 #section-1--introduction .right-side {
-    height: 36vh;
+    height: 40vh;
     right: 0;
     z-index: 1;
     border-right: 0.1rem solid var(--primary-color-2);
@@ -28,6 +28,8 @@
     justify-content: space-between;
     align-items: center;
     color: var(--primary-color-2);
+    margin-bottom: 1vh;
+
     
     /* width: max-content; */
 }
@@ -40,14 +42,14 @@
 #section-1--introduction #i-am-and-decorative-div {
     display: flex;
     flex-direction: column;
-    gap: 1.6vw;
+    gap: 1.6vh;
 }
 
 #section-1--introduction #my-name {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2vw;
+    gap: 1.6vh;
     font-size: 2.3rem;
     font-weight: 900;
     color: var(--primary-color-4);
@@ -56,17 +58,9 @@
 #section-1--introduction .name {
     display: flex;
     align-items: stretch;
-    
     margin-top: 1vh;
     margin-bottom: 4vh;
     gap: 4vw;
-}
-
-
-#section-1--introduction .name p {
-    display: flex;
-    gap: 2vw;
-    padding-bottom: 0;
 }
 
 #section-1--introduction #welcome-to-my-world {
