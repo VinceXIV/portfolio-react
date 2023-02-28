@@ -1,11 +1,14 @@
 import './App.css';
+import React, {useState} from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 
 function App() {
+  const [activePage, setActivePage] = useState('home')
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar activePage={activePage} setActivePage={setActivePage} />
       <Home />
     </div>
   );
