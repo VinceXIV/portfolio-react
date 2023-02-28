@@ -2,10 +2,10 @@
     background-color: var(--primary-color-1);
     width: 100%;
     min-height: 27vh;
-    padding-top: 2vh;
+    padding-top: 6vw;
     position: fixed;
     top: 0;
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 #navbar .container {
@@ -65,23 +65,28 @@
 }
 
 #navbar #div-right ul li:nth-child(1){
-    width: 100%;
+    width: calc(73 * 1.5vh);
+    max-width: 100%;
 }
 
 #navbar #div-right ul li:nth-child(2){
-    width: 82%;
+    width: calc(59.86 * 1.5vh);
+    max-width: 82%;
 }
 
 #navbar #div-right ul li:nth-child(3){
-    width: 64%;
+    width: calc(46.72 * 1.5vh);
+    max-width: 64%;
 }
 
 #navbar #div-right ul li:nth-child(4){
-    width: 46%;
+    width: calc(33.58 * 1.5vh);
+    max-width: 46%;
 }
 
 #navbar #div-right ul li:nth-child(5){
-    width: 28%;
+    width: calc(20.44 * 1.5vh);
+    max-width: 28%;
 }
 
 #navbar #div-right ul li a {
