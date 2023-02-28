@@ -18,10 +18,8 @@
 }
 
 .container {
-  width: max(70%, calc(100% - 4rem));
+  width: 80%;
   max-width: 56rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
   margin: auto;
 
   background-color: var(--primary-color-1);
