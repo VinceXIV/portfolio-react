@@ -16,7 +16,7 @@
     height: 40vh;
     right: 0;
     z-index: 1;
-    border-right: 0.1rem solid var(--primary-color-2);
+    border-right: 0.05rem solid var(--primary-color-2);
 }
 
 #section-1--introduction h1 {
