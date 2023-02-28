@@ -93,10 +93,6 @@
     :root {
         font-size: calc(100vh * 12/768);
     }
-
-    #section-1--introduction .right-side {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 52rem){
