@@ -4,8 +4,10 @@ import "./Navbar.css"
 function Navbar(){
     return (
         <nav id="navbar">
-            <div class="container">
-                <div id="div-left"></div>
+            <div className="container">
+                <div id="div-left">
+                    Vincent
+                </div>
         
                 <div id="div-right">
                     <ul>
