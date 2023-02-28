@@ -14,8 +14,8 @@ function Navbar(){
                         <li><a href="#section-1--introduction">Introduction</a></li>
                         <li><a href="#section-2--about-me">About Me</a></li>
                         <li><a href="#section-3--skills">My Skills</a></li>
-                        <li><a href="#section-4--featured-projects">Featured Projects</a></li>
-                        <li><a href="#section-5--get-in-touch">Get in Touch</a></li>
+                        <li><a href="#section-4--featured-projects">Projects</a></li>
+                        <li><a href="#section-5--get-in-touch">Contact</a></li>
                     </ul>
                 </div>
             </div>
