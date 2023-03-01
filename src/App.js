@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 
 function App() {
-  const [activePage, setActivePage] = useState('home')
+  const [activePage, setActivePage] = useState('introduction')
 
   return (
     <div className="App">
