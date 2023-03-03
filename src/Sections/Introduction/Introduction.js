@@ -1,4 +1,5 @@
 import React from "react";
+import Square from "../../Elements/Square/Square";
 import Triangle from "../../Elements/Triangle/Triangle";
 import "./Introduction.css"
 
@@ -14,7 +15,7 @@ function Introduction(){
                             <Triangle width={0.75} height={0.75} color={"#C89595"} className=""/>
                             <p>am</p>
                         </div>
-                        <div className="decoration-div"></div>
+                        <Square />
                     </div>
 
                     <div id="my-name">
