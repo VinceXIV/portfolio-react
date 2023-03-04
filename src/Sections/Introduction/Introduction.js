@@ -1,6 +1,7 @@
 import React from "react";
 import Square from "../../Elements/Square/Square";
 import Triangle from "../../Elements/Triangle/Triangle";
+import TwoSquares from "../../Elements/TwoSquares/TwoSquares";
 import "./Introduction.css"
 
 function Introduction(){
@@ -35,6 +36,10 @@ function Introduction(){
 
             <div className="right-side">
                 <div className="borders">
+                    <TwoSquares height={4}/>
+                    <TwoSquares height={6}/>
+                    <TwoSquares height={8}/>
+                    <TwoSquares height={10}/>
                 </div>
             </div>
         </section>

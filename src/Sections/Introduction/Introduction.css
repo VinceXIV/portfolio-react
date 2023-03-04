@@ -20,6 +20,9 @@
     border-right: 0.05rem solid var(--primary-color-2);
     width: calc(40 * 1.5vh);
     max-width: 100%;
+    overflow: hidden;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 #section-1--introduction h1 {
@@ -77,6 +80,10 @@
     transform: rotate(90deg);
 }
 
+#section-1--introduction .borders {
+    display: flex;
+    align-items: center;
+}
 
 /* RESPONSIVENESS  */
 @media only screen and (max-width: 52rem){
