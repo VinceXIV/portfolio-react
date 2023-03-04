@@ -2,10 +2,10 @@
     background-color: var(--primary-color-1);
     width: 100%;
     min-height: 27vh;
+    height: calc(26vh + 6vw);
     padding-top: 6vw;
     position: fixed;
     top: 0;
-    /* z-index: 3; */
 }
 
 #navbar .active {

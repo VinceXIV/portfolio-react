@@ -1,6 +1,6 @@
 #section-1--introduction {
-    height: 50vh;
-    margin-top: 40vh;
+    height: 74vh - 6vw;
+    margin-top: calc(26vh + 6vw);
     display: flex;
     justify-content: space-between;
     align-items: center;
