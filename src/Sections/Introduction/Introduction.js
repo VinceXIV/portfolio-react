@@ -36,7 +36,6 @@ function Introduction(){
 
             <div className="right-side">
                 <div className="borders">
-                    <TwoSquares height={4}/>
                     <TwoSquares height={6}/>
                     <TwoSquares height={8}/>
                     <TwoSquares height={10}/>
