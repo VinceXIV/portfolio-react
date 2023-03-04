@@ -10,14 +10,16 @@
 
 #section-1--introduction .left-side {
     max-width: max-content;
-    z-index: 2;
+    width: calc(40 * 1.5vh);
+    max-width: 100%;
 }
 
 #section-1--introduction .right-side {
     height: 40vh;
     right: 0;
-    z-index: 1;
     border-right: 0.05rem solid var(--primary-color-2);
+    width: calc(40 * 1.5vh);
+    max-width: 100%;
 }
 
 #section-1--introduction h1 {

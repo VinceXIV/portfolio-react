@@ -8,7 +8,7 @@ function Introduction(){
         <section id="section-1--introduction">
             <div className="left-side">
                 <h1>Hello there,</h1>
-                <div className="name">
+                <div className="name" >
                     <div id="i-am-and-decorative-div">
                         <div id="i-am">
                             <p>I</p>
@@ -18,7 +18,7 @@ function Introduction(){
                         <Square />
                     </div>
 
-                    <div id="my-name">
+                    <div id="my-name" >
                         <div id="probably-nothing"></div>
                         <p>Vincent Makokha</p>
                     </div>
