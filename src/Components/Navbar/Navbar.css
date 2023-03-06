@@ -74,28 +74,33 @@
 }
 
 #navbar #div-right ul li:nth-child(1){
-    width: calc(73 * 1.5vh);
-    max-width: 100%;
+    /* width: calc(73 * 1.5vh);
+    max-width: 100%; */
+    width: 100%;
 }
 
 #navbar #div-right ul li:nth-child(2){
-    width: calc(59.86 * 1.5vh);
-    max-width: 82%;
+    /* width: calc(59.86 * 1.5vh);
+    max-width: 82%; */
+    width: 82%;
 }
 
 #navbar #div-right ul li:nth-child(3){
-    width: calc(46.72 * 1.5vh);
-    max-width: 64%;
+    /* width: calc(46.72 * 1.5vh);
+    max-width: 64%; */
+    width: 64%;
 }
 
 #navbar #div-right ul li:nth-child(4){
-    width: calc(33.58 * 1.5vh);
-    max-width: 46%;
+    /* width: calc(33.58 * 1.5vh);
+    max-width: 46%; */
+    width: 46%;
 }
 
 #navbar #div-right ul li:nth-child(5){
-    width: calc(20.44 * 1.5vh);
-    max-width: 28%;
+    /* width: calc(20.44 * 1.5vh);
+    max-width: 28%; */
+    width: 28%;
 }
 
 #navbar #div-right ul li a {
