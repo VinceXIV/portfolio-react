@@ -1,3 +1,13 @@
 #about-me-section {
     padding-top: 6vw;
+    overflow: hidden;
+}
+
+#about-me-section #about-me-decoration {
+    display: flex;
+    gap: 1rem;
+}
+
+#about-me-section .two-squares {
+    display: flex;
 }
