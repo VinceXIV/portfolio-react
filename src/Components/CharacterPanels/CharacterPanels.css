@@ -1,0 +1,6 @@
+#character-panels {
+    display: flex;
+    gap: 0.7rem;
+    padding-top: 5vh;
+    margin: 0.35rem;
+}
