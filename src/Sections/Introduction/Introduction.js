@@ -1,4 +1,5 @@
 import React from "react";
+import CharacterPanels from "../../Components/CharacterPanels/CharacterPanels";
 import Square from "../../Elements/Square/Square";
 import Triangle from "../../Elements/Triangle/Triangle";
 import TwoSquares from "../../Elements/TwoSquares/TwoSquares";
@@ -36,9 +37,10 @@ function Introduction(){
 
             <div className="right-side">
                 <div className="borders">
-                    <TwoSquares height={6}/>
-                    <TwoSquares height={8}/>
-                    <TwoSquares height={10}/>
+                    {/* <TwoSquares height={8}/> */}
+                    {/* <TwoSquares height={10}/> */}
+                  
+                    <CharacterPanels panels={[5, 4, 8, 9, 14, 12, 10,8, 10, 14, 8, 10, 14, 14,  18, 17, 15, 18, 25]} values={[1, 0,'', '','','', '', '', '', '', '']}/>
                 </div>
             </div>
         </section>

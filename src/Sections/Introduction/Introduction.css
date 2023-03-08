@@ -19,8 +19,9 @@
     border-right: 0.05rem solid var(--primary-color-2);
     width: calc(40 * 1.5vh);
     max-width: 100%;
-    z-index: 10;
     overflow: hidden;
+    /* display: flex;
+    justify-content: flex-end; */
 }
 
 #section-1--introduction h1 {
@@ -73,6 +74,7 @@
 
 #section-1--introduction .welcome-content-triangle{
     transform: rotate(90deg);
+    z-index: 0;
 }
 
 #section-1--introduction .borders {
