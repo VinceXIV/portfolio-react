@@ -1,5 +1,5 @@
 import React from "react";
-import CharacterList from "../../Elements/NumberList/CharacterList";
+import CharacterList from "../../Elements/CharacterList/CharacterList";
 import "./CharacterPanels.css"
 
 function CharacterPanels({panels=[21, 15, 9], values=[0, 1]}){

@@ -4,8 +4,8 @@
     min-height: 27vh;
     height: calc(26vh + 6vw);
     padding-top: 6vw;
-    position: fixed;
-    top: 0;
+    position: sticky;
+    top: -6vw;
     z-index: 1;
 }
 
