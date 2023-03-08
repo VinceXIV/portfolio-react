@@ -1,0 +1,9 @@
+#character-item {
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+}
+
+#character-item:hover {
+    font-weight: 900;
+}
