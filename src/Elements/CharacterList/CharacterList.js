@@ -6,7 +6,7 @@ function CharacterList({count = 10, values = [0, 1], height="40vh", position="sp
     const characterList = []
     for(let i = 0; i < count; i++){
         characterList.push(
-          <CharacterItem values={values} handleOnClick={handleOnClick} />
+          <CharacterItem key={`character-item-${i}`} values={values} handleOnClick={handleOnClick} />
         )
     }  
 
