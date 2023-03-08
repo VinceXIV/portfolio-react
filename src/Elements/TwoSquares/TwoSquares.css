@@ -1,0 +1,21 @@
+#two-squares {
+    grid-template-areas:
+        "a b"
+        "c d";
+}
+
+#two-squares #squaer-1{
+    grid-area: a;
+}
+
+#two-squares #squaer-2{
+    grid-area: b;
+}
+
+#two-squares #squaer-3{
+    grid-area: c;
+}
+
+#two-squares #squaer-4{
+    grid-area: d;
+}
