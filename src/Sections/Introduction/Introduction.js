@@ -2,7 +2,6 @@ import React from "react";
 import CharacterPanels from "../../Components/CharacterPanels/CharacterPanels";
 import Square from "../../Elements/Square/Square";
 import Triangle from "../../Elements/Triangle/Triangle";
-import TwoSquares from "../../Elements/TwoSquares/TwoSquares";
 import "./Introduction.css"
 
 function Introduction(){
