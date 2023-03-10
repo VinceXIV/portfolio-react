@@ -21,7 +21,7 @@
   width: 85vw;
   padding-left: 6vw;
   padding-right: 6vw;
-  max-width: 75rem;
+  /* max-width: 75rem; */
   margin: auto;
 
   background-color: var(--primary-color-1);

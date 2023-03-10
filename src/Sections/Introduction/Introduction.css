@@ -1,12 +1,13 @@
 #section-1--introduction {
     height: 74vh - 6vw;
     /* margin-top: calc(26vh + 6vw); */
-    margin-top: 1vw;
+    margin-top: calc(1vw - 2rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 4vw;
     width: 100%;
+    padding-bottom: 2rem;
 }
 
 #section-1--introduction .left-side {
@@ -17,7 +18,7 @@
 
 #section-1--introduction .right-side {
     height: 50vh;
-    border-right: 0.05rem solid var(--primary-color-2);
+    /* border-right: 0.05rem solid var(--primary-color-2); */
     width: calc(40 * 1.5vh);
     max-width: 100%;
     overflow: hidden;
@@ -88,12 +89,12 @@
     align-items: center;
     justify-content: space-around;
     /* background-color: blue; */
-    width: 95%;
-    height: 95%;
+    /* width: 95%;
+    height: 95%; */
 }
 
 #section-1--introduction .borders #character-item {
-    color: rgba(221, 190, 190, 0.5);
+    color: rgba(221, 190, 190, 0.3);
 }
 
 /* RESPONSIVENESS  */

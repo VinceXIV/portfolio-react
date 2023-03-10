@@ -12,9 +12,9 @@ function CharacterItem({values=[0, 1], handleOnClick}){
         }, randomInterval)
 
         return ()=> clearInterval(intrvl)
-    }, [randomInterval])
+    }, [randomInterval, values])
 
-return (
+    return (
         <div id="character-item" onClick={handleOnClick} ref={charValueRef}>
             {values[Math.floor(Math.random()*values.length)]}
         </div>

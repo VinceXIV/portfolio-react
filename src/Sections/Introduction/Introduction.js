@@ -39,7 +39,7 @@ function Introduction(){
                     {/* <TwoSquares height={8}/> */}
                     {/* <TwoSquares height={10}/> */}
                   
-                    <CharacterPanels panels={[11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]} values={[1, 0,'', '','','', '', '', '', '', '']}/>
+                    <CharacterPanels panels={[11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11]} values={[1, 0,'', '','','', '', '', '', '', '']}/>
                 </div>
             </div>
         </section>
