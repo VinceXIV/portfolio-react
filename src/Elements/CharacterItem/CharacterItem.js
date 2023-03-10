@@ -3,7 +3,7 @@ import "./CharacterItem.css"
 
 function CharacterItem({values=[0, 1], handleOnClick}){
     const charValueRef = useRef()
-    const [randomInterval, setRandomInterval] = useState(Math.random()*100000)
+    const [randomInterval, setRandomInterval] = useState(Math.random()*10000)
 
     useEffect(()=>{
         const intrvl = setInterval(()=>{

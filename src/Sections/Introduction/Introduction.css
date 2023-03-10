@@ -21,6 +21,7 @@
     width: calc(40 * 1.5vh);
     max-width: 100%;
     overflow: hidden;
+
     /* background-color: yellow; */
     display: grid;
     place-items: center;
@@ -89,6 +90,10 @@
     /* background-color: blue; */
     width: 95%;
     height: 95%;
+}
+
+#section-1--introduction .borders #character-item {
+    color: rgba(221, 190, 190, 0.3);
 }
 
 /* RESPONSIVENESS  */
