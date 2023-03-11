@@ -9,6 +9,10 @@
     z-index: 1;
 }
 
+#navbar #div-right a {
+    font-weight: 700;
+}
+
 #navbar .active {
     background-color: var(--primary-color-2);
 
